@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07446DE15D45C40A99113996 /* Pods_TabatabataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE44272AF057D25EF2B09675 /* Pods_TabatabataUITests.framework */; };
+		1F32AF635A817B765AEF7F65 /* Pods_Tabatabata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF42D4147380C4952C50BDD7 /* Pods_Tabatabata.framework */; };
 		398A02E22063E02C007FCC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A02E12063E02C007FCC3C /* AppDelegate.swift */; };
 		398A02E42063E02C007FCC3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A02E32063E02C007FCC3C /* ViewController.swift */; };
 		398A02E72063E02C007FCC3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398A02E52063E02C007FCC3C /* Main.storyboard */; };
@@ -15,6 +17,17 @@
 		398A02EF2063E02C007FCC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398A02ED2063E02C007FCC3C /* LaunchScreen.storyboard */; };
 		398A02FA2063E02C007FCC3C /* TabatabataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A02F92063E02C007FCC3C /* TabatabataTests.swift */; };
 		398A03052063E02C007FCC3C /* TabatabataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A03042063E02C007FCC3C /* TabatabataUITests.swift */; };
+		398A03142063FC2A007FCC3C /* Dude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A03132063FC2A007FCC3C /* Dude.swift */; };
+		398A03152063FE90007FCC3C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398A03162063FE90007FCC3C /* RealmSwift.framework */; };
+		398A03172063FED4007FCC3C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398A03182063FED4007FCC3C /* Realm.framework */; };
+		39B213B92069B33A0020338D /* CollectionViewCell_dude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B213B72069B33A0020338D /* CollectionViewCell_dude.swift */; };
+		39B213BA2069B33A0020338D /* CollectionViewCell_dude.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B213B82069B33A0020338D /* CollectionViewCell_dude.xib */; };
+		39B213BC2069BF570020338D /* DudeDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B213BB2069BF570020338D /* DudeDAO.swift */; };
+		39CE228D207E7ACA00BD739E /* FormDudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE228C207E7ACA00BD739E /* FormDudeViewController.swift */; };
+		39CE228F207EAD3300BD739E /* TabataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE228E207EAD3300BD739E /* TabataViewController.swift */; };
+		39CE2292207EC99000BD739E /* 2050.wav in Resources */ = {isa = PBXBuildFile; fileRef = 39CE2291207EC99000BD739E /* 2050.wav */; };
+		39CE2294207ECA2B00BD739E /* beep-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 39CE2293207ECA2B00BD739E /* beep-07.wav */; };
+		52319F9A1FF85F4084262D9C /* Pods_TabatabataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807A3D8439D9375C4372CDD /* Pods_TabatabataTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0774FDCBFA31E8B49599C31C /* Pods-TabatabataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabatabataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabatabataUITests/Pods-TabatabataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2807A3D8439D9375C4372CDD /* Pods_TabatabataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabatabataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		398A02DE2063E02C007FCC3C /* Tabatabata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabatabata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398A02E12063E02C007FCC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398A02E32063E02C007FCC3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		398A03002063E02C007FCC3C /* TabatabataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabatabataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398A03042063E02C007FCC3C /* TabatabataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabatabataUITests.swift; sourceTree = "<group>"; };
 		398A03062063E02C007FCC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398A03132063FC2A007FCC3C /* Dude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dude.swift; sourceTree = "<group>"; };
+		398A03162063FE90007FCC3C /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		398A03182063FED4007FCC3C /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B213B72069B33A0020338D /* CollectionViewCell_dude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell_dude.swift; sourceTree = "<group>"; };
+		39B213B82069B33A0020338D /* CollectionViewCell_dude.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell_dude.xib; sourceTree = "<group>"; };
+		39B213BB2069BF570020338D /* DudeDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DudeDAO.swift; sourceTree = "<group>"; };
+		39CE228C207E7ACA00BD739E /* FormDudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDudeViewController.swift; sourceTree = "<group>"; };
+		39CE228E207EAD3300BD739E /* TabataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataViewController.swift; sourceTree = "<group>"; };
+		39CE2291207EC99000BD739E /* 2050.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2050.wav; sourceTree = "<group>"; };
+		39CE2293207ECA2B00BD739E /* beep-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-07.wav"; sourceTree = "<group>"; };
+		93B755197B3676E571C5AA8B /* Pods-TabatabataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabatabataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabatabataUITests/Pods-TabatabataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC3F62474CE5AC9B532D951 /* Pods-Tabatabata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatabata.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tabatabata/Pods-Tabatabata.release.xcconfig"; sourceTree = "<group>"; };
+		BABFC93C6293ADED1ED8A75D /* Pods-Tabatabata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatabata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tabatabata/Pods-Tabatabata.debug.xcconfig"; sourceTree = "<group>"; };
+		CC99BE4A0DDBFE1AA28A6B5E /* Pods-TabatabataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabatabataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabatabataTests/Pods-TabatabataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE44272AF057D25EF2B09675 /* Pods_TabatabataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabatabataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF42D4147380C4952C50BDD7 /* Pods_Tabatabata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabatabata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F09E12E97B0D0FD4C220A1 /* Pods-TabatabataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabatabataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabatabataTests/Pods-TabatabataTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398A03172063FED4007FCC3C /* Realm.framework in Frameworks */,
+				398A03152063FE90007FCC3C /* RealmSwift.framework in Frameworks */,
+				1F32AF635A817B765AEF7F65 /* Pods_Tabatabata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52319F9A1FF85F4084262D9C /* Pods_TabatabataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07446DE15D45C40A99113996 /* Pods_TabatabataUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1853F32EACF094780E33E156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398A03182063FED4007FCC3C /* Realm.framework */,
+				398A03162063FE90007FCC3C /* RealmSwift.framework */,
+				DF42D4147380C4952C50BDD7 /* Pods_Tabatabata.framework */,
+				2807A3D8439D9375C4372CDD /* Pods_TabatabataTests.framework */,
+				CE44272AF057D25EF2B09675 /* Pods_TabatabataUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		398A02D52063E02C007FCC3C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				398A02F82063E02C007FCC3C /* TabatabataTests */,
 				398A03032063E02C007FCC3C /* TabatabataUITests */,
 				398A02DF2063E02C007FCC3C /* Products */,
+				C5C90CE77EB0D87B8B12CB4D /* Pods */,
+				1853F32EACF094780E33E156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,18 @@
 		398A02E02063E02C007FCC3C /* Tabatabata */ = {
 			isa = PBXGroup;
 			children = (
+				39CE2290207EC96600BD739E /* sound */,
+				39B213B52069B3010020338D /* cell */,
+				398A03122063FB79007FCC3C /* entity */,
 				398A02E12063E02C007FCC3C /* AppDelegate.swift */,
+				39CE228C207E7ACA00BD739E /* FormDudeViewController.swift */,
 				398A02E32063E02C007FCC3C /* ViewController.swift */,
 				398A02E52063E02C007FCC3C /* Main.storyboard */,
 				398A02EB2063E02C007FCC3C /* Assets.xcassets */,
 				398A02ED2063E02C007FCC3C /* LaunchScreen.storyboard */,
 				398A02F02063E02C007FCC3C /* Info.plist */,
 				398A02E82063E02C007FCC3C /* Tabatabata.xcdatamodeld */,
+				39CE228E207EAD3300BD739E /* TabataViewController.swift */,
 			);
 			path = Tabatabata;
 			sourceTree = "<group>";
@@ -128,6 +184,54 @@
 			path = TabatabataUITests;
 			sourceTree = "<group>";
 		};
+		398A03122063FB79007FCC3C /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				398A03132063FC2A007FCC3C /* Dude.swift */,
+				39B213BB2069BF570020338D /* DudeDAO.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		39B213B52069B3010020338D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				39B213B62069B3140020338D /* collection */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		39B213B62069B3140020338D /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				39B213B72069B33A0020338D /* CollectionViewCell_dude.swift */,
+				39B213B82069B33A0020338D /* CollectionViewCell_dude.xib */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		39CE2290207EC96600BD739E /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				39CE2293207ECA2B00BD739E /* beep-07.wav */,
+				39CE2291207EC99000BD739E /* 2050.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		C5C90CE77EB0D87B8B12CB4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BABFC93C6293ADED1ED8A75D /* Pods-Tabatabata.debug.xcconfig */,
+				9EC3F62474CE5AC9B532D951 /* Pods-Tabatabata.release.xcconfig */,
+				CC99BE4A0DDBFE1AA28A6B5E /* Pods-TabatabataTests.debug.xcconfig */,
+				F3F09E12E97B0D0FD4C220A1 /* Pods-TabatabataTests.release.xcconfig */,
+				93B755197B3676E571C5AA8B /* Pods-TabatabataUITests.debug.xcconfig */,
+				0774FDCBFA31E8B49599C31C /* Pods-TabatabataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398A03092063E02C007FCC3C /* Build configuration list for PBXNativeTarget "Tabatabata" */;
 			buildPhases = (
+				E20B6CF2E40D9A91F8A0491A /* [CP] Check Pods Manifest.lock */,
 				398A02DA2063E02C007FCC3C /* Sources */,
 				398A02DB2063E02C007FCC3C /* Frameworks */,
 				398A02DC2063E02C007FCC3C /* Resources */,
+				85731FC283FB4495828332E2 /* [CP] Embed Pods Frameworks */,
+				F0D793497F2C5E4A0656A8FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398A030C2063E02C007FCC3C /* Build configuration list for PBXNativeTarget "TabatabataTests" */;
 			buildPhases = (
+				F892B7364497675A3F0AAAF3 /* [CP] Check Pods Manifest.lock */,
 				398A02F12063E02C007FCC3C /* Sources */,
 				398A02F22063E02C007FCC3C /* Frameworks */,
 				398A02F32063E02C007FCC3C /* Resources */,
+				CE4BE03D8A3C37B8ECE3ACD7 /* [CP] Embed Pods Frameworks */,
+				6BA4F97D53BFAFC21702EF95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398A030F2063E02C007FCC3C /* Build configuration list for PBXNativeTarget "TabatabataUITests" */;
 			buildPhases = (
+				6103B80C921CE4A1AE6B4AC7 /* [CP] Check Pods Manifest.lock */,
 				398A02FC2063E02C007FCC3C /* Sources */,
 				398A02FD2063E02C007FCC3C /* Frameworks */,
 				398A02FE2063E02C007FCC3C /* Resources */,
+				968E0A547375B0505D9E4B91 /* [CP] Embed Pods Frameworks */,
+				E97740C1202CEEE778B86C83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +348,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B213BA2069B33A0020338D /* CollectionViewCell_dude.xib in Resources */,
+				39CE2294207ECA2B00BD739E /* beep-07.wav in Resources */,
+				39CE2292207EC99000BD739E /* 2050.wav in Resources */,
 				398A02EF2063E02C007FCC3C /* LaunchScreen.storyboard in Resources */,
 				398A02EC2063E02C007FCC3C /* Assets.xcassets in Resources */,
 				398A02E72063E02C007FCC3C /* Main.storyboard in Resources */,
@@ -257,14 +373,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6103B80C921CE4A1AE6B4AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabatabataUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA4F97D53BFAFC21702EF95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabatabataTests/Pods-TabatabataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85731FC283FB4495828332E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tabatabata/Pods-Tabatabata-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tabatabata/Pods-Tabatabata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968E0A547375B0505D9E4B91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabatabataUITests/Pods-TabatabataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4BE03D8A3C37B8ECE3ACD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabatabataTests/Pods-TabatabataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20B6CF2E40D9A91F8A0491A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabatabata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97740C1202CEEE778B86C83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabatabataUITests/Pods-TabatabataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D793497F2C5E4A0656A8FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tabatabata/Pods-Tabatabata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F892B7364497675A3F0AAAF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabatabataTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		398A02DA2063E02C007FCC3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398A03142063FC2A007FCC3C /* Dude.swift in Sources */,
+				39CE228F207EAD3300BD739E /* TabataViewController.swift in Sources */,
 				398A02EA2063E02C007FCC3C /* Tabatabata.xcdatamodeld in Sources */,
 				398A02E42063E02C007FCC3C /* ViewController.swift in Sources */,
 				398A02E22063E02C007FCC3C /* AppDelegate.swift in Sources */,
+				39B213BC2069BF570020338D /* DudeDAO.swift in Sources */,
+				39CE228D207E7ACA00BD739E /* FormDudeViewController.swift in Sources */,
+				39B213B92069B33A0020338D /* CollectionViewCell_dude.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +701,11 @@
 		};
 		398A030A2063E02C007FCC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABFC93C6293ADED1ED8A75D /* Pods-Tabatabata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJU4Z9GKBJ;
 				INFOPLIST_FILE = Tabatabata/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jordane.Tabatabata;
@@ -442,9 +717,11 @@
 		};
 		398A030B2063E02C007FCC3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC3F62474CE5AC9B532D951 /* Pods-Tabatabata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJU4Z9GKBJ;
 				INFOPLIST_FILE = Tabatabata/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jordane.Tabatabata;
@@ -456,6 +733,7 @@
 		};
 		398A030D2063E02C007FCC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC99BE4A0DDBFE1AA28A6B5E /* Pods-TabatabataTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +750,7 @@
 		};
 		398A030E2063E02C007FCC3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F09E12E97B0D0FD4C220A1 /* Pods-TabatabataTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +767,7 @@
 		};
 		398A03102063E02C007FCC3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B755197B3676E571C5AA8B /* Pods-TabatabataUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +783,7 @@
 		};
 		398A03112063E02C007FCC3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0774FDCBFA31E8B49599C31C /* Pods-TabatabataUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
